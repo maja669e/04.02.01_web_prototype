@@ -79,10 +79,6 @@
     background-color: red;
     position: absolute;
     border: solid black 1px;
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
 }
 
 #box {
@@ -135,8 +131,7 @@
 
 h1 {
     font-size: 50px;
-    color: white
-<<<<<<< HEAD
+    color: white <<<<<<< HEAD
 }
 
 /* [ON BIG SCREEN] */
@@ -200,8 +195,8 @@ h1 {
     #page-nav input:checked ~ ul {
         display: block;
     }
-=======
->>>>>>> origin/master
+
+    ======= > > > > > > > origin/master
 }
 
 h3 {
