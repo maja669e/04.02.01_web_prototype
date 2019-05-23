@@ -85,7 +85,57 @@
     text-align: center;
 }
 
+#box1 {
+    background-color: #faf7f7;
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 250px;
+    left: 0;
+}
+
+#continue {
+    background-color: #EA5045;
+    position: absolute;
+    width: 30%;
+    height: 30px;
+    top: 80px;
+    left: 0;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+#facebooklogin {
+    background-color: #faf7f7;
+    position: absolute;
+    width: 30%;
+    height: 30px;
+    top: 150px;
+    left: 0;
+    justify-content: center;
+    border-radius: 20px;
+    border: 2px solid #EA5045;
+}
+
+#logo {
+    position: relative;
+    width: 10%;
+    height: 8%;
+}
+
 h1 {
     font-size: 50px;
     color: white
+}
+
+h3 {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+h4 {
+    color: #EA5045;
+    font-size: 15px;
+    text-align: center;
 }
