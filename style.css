@@ -1,6 +1,20 @@
 body {
     background-color: #EDEDED;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
 }
+
+html {
+    font-size: 100%;
+}
+
+img {
+    100%;
+}
+
 
 
 /* The Modal (background) */
@@ -153,12 +167,14 @@ h1 {
     font-family: "Helvetica Neue Condensed", sans-serif;
 }
 
+
 /* Hide Hamburger */
 #page-nav label,
 #hamburger {
     display: none;
     cursor: pointer;
 }
+
 
 /* Menu Items */
 #page-nav ul {
@@ -168,15 +184,21 @@ h1 {
     cursor: pointer;
 }
 
+
 #page-nav ul li {
     display: inline-block;
     padding: 10px;
     box-sizing: border-box;
 }
 
+
 #page-nav ul li a {
     color: white;
     text-decoration: none;
+}
+
+#page-nav ul li a:hover {
+    opacity: 0.6;
 }
 
 /* [ON SMALL SCREENS] */
@@ -290,6 +312,7 @@ h4 {
 .topnav {
     overflow: hidden;
     justify-content: center;
+    padding: 5px;
 
 }
 
