@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fronter</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -29,16 +30,66 @@
         </nav>
     </header>
 
+    <div class="topnav">
+        <input type="text" placeholder="Søg..">
+    </div>
 
     <section id="hold">
         <h1>Hold</h1>
-        <div id="semester">
+        <div id="knapper">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Uddannelse</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Multimediedesigner</a>
+                    <a href="#">E-designer</a>
+                    <a href="#">Datamatiker</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Semester</button>
+                <div id="myDropdown1" class="dropdown-content">
+                    <a href="#">1. semester</a>
+                    <a href="#">2. semester</a>
+                    <a href="#">3. semester</a>
+                    <a href="#">4. semester</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="info">
+
+            <div id="foto">
+                <p></p>
+            </div>
+            <div id="navn">
+                <p>Fulde navn</p>
+            </div>
+            <div id="linje">
+                <p>Linje</p>
+            </div>
+            <div id="semester">
+                <p>Semester</p>
+            </div>
+
+        </div>
+
+        <div id="profil">
+
+
+            <div id="billeder">
+                <div id="profil_pic"><img src="profil_pic.JPG" alt="profil"></div>
+                <div id="profil_pic"><img src="profil_pic.JPG" alt="profil"></div>
+                <div id="profil_pic"><img src="profil_pic.JPG" alt="profil"></div>
+                <div id="profil_pic"><img src="profil_pic.JPG" alt="profil"></div>
+            </div>
+
 
         </div>
 
     </section>
 
-
+    <script src="script.js"></script>
 
 </body>
 

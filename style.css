@@ -95,6 +95,7 @@ body {
     top: 0;
     left: 0;
     text-align: center;
+
 }
 
 #box1 {
@@ -138,7 +139,7 @@ body {
 h1 {
     font-size: 50px;
     color: white;
-    color: white
+    font-family: "Helvetica Neue Condensed", sans-serif;
 }
 
 /* [ON BIG SCREEN] */
@@ -149,12 +150,14 @@ h1 {
     /* If you want the navigation bar to stick on top */
     position: sticky;
     top: 30px;
+    font-family: "Helvetica Neue Condensed", sans-serif;
 }
 
 /* Hide Hamburger */
 #page-nav label,
 #hamburger {
     display: none;
+    cursor: pointer;
 }
 
 /* Menu Items */
@@ -162,6 +165,7 @@ h1 {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    cursor: pointer;
 }
 
 #page-nav ul li {
@@ -210,17 +214,152 @@ h3 {
     color: white;
     font-size: 15px;
     text-align: center;
+    font-family: "Helvetica Neue Condensed", sans-serif;
 }
 
 h4 {
     color: #EA5045;
     font-size: 15px;
     text-align: center;
+    font-family: "Helvetica Neue Condensed", sans-serif;
 }
 
+#knapper {
+    flex: wrap;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
 
 #hold h1 {
     color: #233249;
     font-size: 50px;
     text-align: center;
+    font-family: "Helvetica Neue Condensed", sans-serif;
 }
+
+.dropbtn {
+    background-color: #233249;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #2b3e5a;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #233249;
+    min-width: 145px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 0px 3px;
+    text-decoration: none;
+    display: block;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+}
+
+
+.dropdown a:hover {
+    background-color: #2b3e5a;
+}
+
+.show {
+    display: block;
+}
+
+.topnav {
+    overflow: hidden;
+    justify-content: center;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: center;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    justify-content: center;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+    color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+
+
+#profil {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#profil_pic {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#profil_pic p {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 1px;
+}
+
+#billeder img {
+    margin: 0.5vw;
+    width: 15vw;
+    height: 18vw;
+}
+
+#info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: lightgrey;
+    justify-content: space-around;
+
+}
+
+#info p {
+    color: white;
+    font-family: "Helvetica Neue Condensed", sans-serif;
