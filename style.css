@@ -75,12 +75,13 @@
     }
 }
 
-<<<<<<< HEAD
 .box {
     background-color: red;
     position: absolute;
     border: solid black 1px;
-=======
+
+}
+
 #box {
     background-color: #EA5045;
     position: absolute;
@@ -94,5 +95,4 @@
 h1 {
     font-size: 50px;
     color: white
->>>>>>> origin/master
 }
