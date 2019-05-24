@@ -121,6 +121,17 @@ img {
     left: 0;
 }
 
+#opdel {
+    background-color: #DEDCDB;
+    position: absolute;
+    width: 8%;
+    height: 5px;
+    bottom: 300px;
+    left: 208px;
+    z-index: 5;
+    border-radius: 20px;
+}
+
 #continue {
     background-color: #EA5045;
     position: absolute;
@@ -128,8 +139,8 @@ img {
     height: 30px;
     top: 80px;
     left: 0;
-    justify-content: center;
     border-radius: 20px;
+    margin: 150px;
 }
 
 #facebooklogin {
@@ -142,6 +153,8 @@ img {
     justify-content: center;
     border-radius: 20px;
     border: 2px solid #EA5045;
+    justify-content: center;
+    margin: 150px;
 }
 
 #logo {
