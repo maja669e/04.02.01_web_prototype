@@ -419,10 +419,52 @@ body {
     top: 200%;
     left: 23%;
     transform: translate(-25%, -50%);
+<<<<<<< HEAD
+=======
 
 }
 
+#afleveringer {
+    flex-wrap: wrap;
+    margin: 1vw;
+    padding: 2vw;
+}
+
+#afleveringer h1 {
+    color: #233249;
+    font-size: 40px;
+    margin: 2vw;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+
+}
+
+#afleveringer h2 {
+    color: #EA5045;
+    font-size: 20px;
+    margin: 2vw;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+}
+
+#afleveringer p {
+    color: black;
+    font-size: 15px;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+}
+>>>>>>> origin/master
+
+#naeste,
+#aflever,
+#tidligere {
+    margin: 2vw;
+    padding: 2vw;
+    background-color: #eae7e7
+}
+
 .item {
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
     width: 120px;
     height: 120px;
     float: left;
