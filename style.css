@@ -403,42 +403,62 @@ h4 {
 
 /* Forside */
 
-*{
+* {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-body{
+
+body {
     background-color: #FAF7F7;
 }
 
-.metro{
+.metro {
     color: #F58E81;
     position: absolute;
     top: 200%;
-    left:23%;
-    transform: translate(-25%,-50%);
+    left: 23%;
+    transform: translate(-25%, -50%);
 
 }
 
-<<<<<<< HEAD
-#tidligere i {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
+#afleveringer {
+    flex-wrap: wrap;
+    margin: 1vw;
+    padding: 2vw;
+}
+
+#afleveringer h1 {
+    color: #233249;
+    font-size: 40px;
+    margin: 2vw;
+    font-family: "Helvetica Neue Condensed", sans-serif;
 
 }
 
-#tidligere .down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
+#afleveringer h2 {
+    color: #EA5045;
+    font-size: 20px;
+    margin: 2vw;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+}
+
+#afleveringer p {
+    color: black;
+    font-size: 15px;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+}
+
+#naeste,
+#aflever,
+#tidligere {
+    margin: 2vw;
+    padding: 2vw;
+    background-color: #eae7e7
 }
 
 .item {
-=======
-.item{
->>>>>>> origin/master
+
     width: 120px;
     height: 120px;
     float: left;
@@ -450,23 +470,24 @@ body{
     transition: 0.4s;
 }
 
-.item:hover{
-   transform: scale(0.9);
+.item:hover {
+    transform: scale(0.9);
 }
 
-.item i{
+.item i {
     font-size: 36px;
-    line-height:100px;
+    line-height: 100px;
     opacity: 0.8;
 }
 
-.item span{
+.item span {
     opacity: 0.8;
     position: absolute;
     bottom: 6px;
     left: 6px;
     font-size: 15px;
 }
+
 .i1 {}
 
 .i2 {}
@@ -493,10 +514,3 @@ body{
 }
 
 .i11 {}
-
-
-
-
-
-
-
