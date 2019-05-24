@@ -386,3 +386,18 @@ h4 {
 #info p {
     color: white;
     font-family: "Helvetica Neue Condensed", sans-serif;
+
+    /* Forside */
+    /*Den denne kode sørger for at dine bokse ligger på 4 rækker med lidt afstand */
+
+    /*#bokse {
+        display: inline-block;
+        width: 20vw;
+        height: 7vw;
+        margin-right: 2vw;
+        background-color: lavender;
+    }*/
+
+
+
+    /*Herunder er et eksempel på en css til den første boks*/
