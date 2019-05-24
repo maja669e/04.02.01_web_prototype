@@ -15,7 +15,25 @@ img {
     100%;
 }
 
+#menu_profil {
+    width: 50px;
+    position: relative;
 
+}
+
+#menu_kea {
+    width: 100px;
+    position: relative;
+}
+
+#menu_boks {
+    background-color: #EA5045;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    left: 0;
+}
 
 /* The Modal (background) */
 .modal {
@@ -186,6 +204,7 @@ h1 {
 #hamburger {
     display: none;
     cursor: pointer;
+    float: right;
 }
 
 
@@ -218,10 +237,10 @@ h1 {
 @media screen and (max-width: 768px) {
 
     /* Show Hamburger */
+
     #page-nav label {
         display: inline-block;
         color: #fff;
-        background: #EA5045;
         font-style: normal;
         font-size: 2.4em;
         padding: 20px;
@@ -419,9 +438,6 @@ body {
     top: 200%;
     left: 23%;
     transform: translate(-25%, -50%);
-<<<<<<< HEAD
-=======
-
 }
 
 #afleveringer {
@@ -450,7 +466,6 @@ body {
     font-size: 15px;
     font-family: "Helvetica Neue Condensed", sans-serif;
 }
->>>>>>> origin/master
 
 #naeste,
 #aflever,
@@ -461,10 +476,6 @@ body {
 }
 
 .item {
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
     width: 120px;
     height: 120px;
     float: left;
