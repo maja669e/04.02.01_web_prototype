@@ -389,18 +389,4 @@ h4 {
 }
 
 /* Forside */
-/*Denne kode sørger for at boksene ligger på 3 rækker med lidt afstand */
 
-div div {
-    display: inline-block;
-    width: 28.5vw;
-    height: 28.5vw;
-    margin: 2vw;
-    background-color: lavender;
-}
-
-/*CSS på boksene*/
-
-.boks1 {
-    background-color: red;
-}
