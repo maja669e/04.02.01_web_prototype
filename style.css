@@ -404,3 +404,30 @@ div div {
 .boks1 {
     background-color: red;
 }
+
+
+#afleveringer h1 {
+    color: #233249;
+    font-size: 40px;
+    margin: 2vw;
+    padding: 2vw;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+}
+
+#afleveringer h2 {
+    color: #EA5045;
+    font-size: 20px;
+    margin: 2vw;
+    padding: 2vw;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+}
+
+#naeste,
+#aflever {
+    color: black;
+    background-color: #e8e6e6;
+    font-size: 15px;
+    margin: 4vw;
+    padding: 2vw;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+}
