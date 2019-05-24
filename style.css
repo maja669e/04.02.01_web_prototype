@@ -389,7 +389,6 @@ h4 {
 }
 
 /* Forside */
-/*@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";*/
 
 *{
     margin: 0;
@@ -403,7 +402,7 @@ body{
 .metro{
     color: #F58E81;
     position: absolute;
-    top: 108%;
+    top: 200%;
     left:23%;
     transform: translate(-25%,-50%);
 
@@ -459,8 +458,8 @@ body{
 .i9 {}
 
 .i10 {
-    width: 200px;
-    height: 200px;
+    width: 248px;
+    height: 248px;
 }
 
 .i11 {}
