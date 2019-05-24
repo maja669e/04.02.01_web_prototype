@@ -439,6 +439,19 @@ body {
     font-family: "Helvetica Neue Condensed", sans-serif;
 }
 
+#tidligere i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+
+}
+
+#tidligere .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
 .item {
     width: 120px;
     height: 120px;
