@@ -403,15 +403,15 @@ body{
 .metro{
     color: #F58E81;
     position: absolute;
-    top: 130%;
-    left: 34%;
+    top: 108%;
+    left:23%;
     transform: translate(-25%,-50%);
 
 }
 
 .item{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     float: left;
     background: white;
     margin: 4px;
@@ -443,7 +443,7 @@ body{
 .i2{}
 .i3{}
 .i4{
-    width: 210px;
+    width: 248px;
 }
 .i5{}
 .i6{}
