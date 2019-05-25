@@ -18,24 +18,38 @@ body {
     background: #EA5045;
     /* If you want the navigation bar to stick on top */
     position: sticky;
-    top: 30px;
     z-index: 3;
-    height: 200;
+    height: 4rem;
     font-family: "Helvetica Neue Condensed", sans-serif;
 }
 
-#page-nav img {
-    height: 50px;
-
+#menu_profil {
+    position: absolute;
+    right: 10%;
+    top: 6%;
 }
 
+#menu_profil img {
+    height: 50px;
+}
 
-/* Hide Hamburger */
-#page-nav label,
-#hamburger {
-    display: none;
-    cursor: pointer;
-    float: right;
+#menu_billede {
+    position: absolute;
+    top: 10%;
+}
+
+#menu_billede img {
+    height: 40px;
+}
+
+#page-nav label {
+    position: absolute;
+    display: inline-block;
+    color: #fff;
+    font-style: normal;
+    font-size: 2.4em;
+    right: 3%;
+    top: 3%;
 }
 
 
@@ -70,14 +84,7 @@ body {
 
     /* Show Hamburger */
 
-    #page-nav label {
-        display: inline-block;
-        color: #fff;
-        font-style: normal;
-        font-size: 2.4em;
-        padding: 20px;
 
-    }
 
     /* Break down menu items into vertical */
     #page-nav ul li {
@@ -175,3 +182,5 @@ body {
 .i11 {}
 
 /*Forside slut*/
+
+/*Menu start*/

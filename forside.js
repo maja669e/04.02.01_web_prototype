@@ -9,9 +9,13 @@ function sidenVises() {
 
     // Queryselector på burger menu
     // Kalder function show menu
+     document.querySelector("#burger").addEventListener("click", showMenu);
 }
 
 function showMenu(){
+    console.log("yo");
+     document.querySelector("#forside").classList.add("forsvind");
+     document.querySelector("#menu").classList.remove("forsvind");
     //Hide forside
     //Show menu
 
