@@ -55,31 +55,6 @@ body {
 }
 
 
-/* Menu Items */
-#page-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    cursor: pointer;
-    height: 200%;
-}
-
-
-#page-nav ul li {
-    display: inline-block;
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-
-#page-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-#page-nav ul li a:hover {
-    opacity: 0.6;
-}
 
 /* [ON SMALL SCREENS] */
 @media screen and (max-width: 768px) {
@@ -88,10 +63,7 @@ body {
 
 
 
-    /* Break down menu items into vertical */
-    #page-nav ul li {
-        display: block;
-    }
+
 
     /* Toggle show/hide menu on checkbox click */
     #page-nav ul {
@@ -193,10 +165,44 @@ body {
     font-size: 30px;
     float: right;
     padding: 2.5vw;
+    color: white;
 }
 
-#kea_logo {}
+#kea_logo {
+}
 
 #kea_logo img {
     height: 50px;
+    margin-top: 20%;
+    margin-left: 34.5%;
+}
+
+#menu ul {
+    color: #F58E81;
+    margin: 30px;
+}
+
+/* Menu Items */
+#menu ul {
+    list-style-type: none;
+    margin-top: 10%;
+    padding: 0;
+}
+
+
+#menu ul li {
+    padding: 15px;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+}
+
+
+#menu ul li a {
+    color: #F58E81;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    opacity: 0.6;
 }
