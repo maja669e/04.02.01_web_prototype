@@ -456,26 +456,6 @@ h4 {
     font-family: "Helvetica Neue Condensed", sans-serif;
 }
 
-/* Forside */
-
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-body {
-    background-color: #FAF7F7;
-}
-
-.metro {
-    color: #F58E81;
-    position: absolute;
-    top: 200%;
-    left: 23%;
-    transform: translate(-25%, -50%);
-}
-
 #afleveringer {
     flex-wrap: wrap;
     margin: 1vw;
@@ -576,6 +556,26 @@ body {
     border-bottom: 1px solid #cccccc;
 }
 
+/* Forside */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background-color: #FAF7F7;
+}
+
+.metro {
+    color: #F58E81;
+    position: absolute;
+    top: 200%;
+    left: 23%;
+    transform: translate(-25%, -50%);
+}
+
 
 .item {
     width: 120px;
@@ -633,6 +633,8 @@ body {
 }
 
 .i11 {}
+
+/*Forside slut*/
 
 #materialer h1 {
     color: #233249;
