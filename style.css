@@ -195,6 +195,8 @@ h1 {
     /* If you want the navigation bar to stick on top */
     position: sticky;
     top: 30px;
+    z-index: 3;
+    height: 200;
     font-family: "Helvetica Neue Condensed", sans-serif;
 }
 
@@ -214,6 +216,7 @@ h1 {
     margin: 0;
     padding: 0;
     cursor: pointer;
+    height: 200%;
 }
 
 
@@ -558,7 +561,7 @@ h4 {
 
 /* Forside */
 
-* {
+/** {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -632,7 +635,7 @@ body {
     height: 248px;
 }
 
-.i11 {}
+.i11 {}*/
 
 /*Forside slut*/
 
