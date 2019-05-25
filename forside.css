@@ -1,10 +1,7 @@
 body {
-    background-color: #EDEDED;
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 56.25vw;
-    position: absolute;
+    background-color: #FAF7F7;
+    width: 100%;
+    height: 100%;
 }
 
 .forsvind {
@@ -36,6 +33,10 @@ body {
 #menu_billede {
     position: absolute;
     top: 10%;
+}
+
+#menu_billede:hover {
+    transform: scale(0.9);
 }
 
 #menu_billede img {
@@ -111,14 +112,12 @@ body {
     list-style: none;
 }
 
-body {
-    background-color: #FAF7F7;
-}
-
 .metro {
     color: #F58E81;
     position: absolute;
-    top: 200%;
+    top: 78%;
+    margin-left: auto;
+    margin-right: auto;
     left: 23%;
     transform: translate(-25%, -50%);
 }
@@ -184,3 +183,20 @@ body {
 /*Forside slut*/
 
 /*Menu start*/
+#menu {
+    background-color: #3F3140;
+    min-height: 100%;
+    bottom: 0px;
+}
+
+#kryds {
+    font-size: 30px;
+    float: right;
+    padding: 2.5vw;
+}
+
+#kea_logo {}
+
+#kea_logo img {
+    height: 50px;
+}

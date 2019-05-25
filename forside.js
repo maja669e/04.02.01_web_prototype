@@ -19,6 +19,7 @@ function showMenu(){
     //Hide forside
     //Show menu
 
+    document.querySelector("#kryds").addEventListener("click", sidenVises);
     // Queryselector på burgermenu/kryds til at komme tilbage til forside
 }
 
