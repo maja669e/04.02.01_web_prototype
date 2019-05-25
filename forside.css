@@ -7,6 +7,10 @@ body {
     position: absolute;
 }
 
+.forsvind {
+    display: none;
+}
+
 /* [ON BIG SCREEN] */
 /* Wrapper */
 #page-nav {
