@@ -1,8 +1,14 @@
+html {
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
 body {
     background-color: #FAF7F7;
     height: 100%;
     width: 100%;
-    position: fixed;
+    position: relative;
 }
 
 .forsvind {
@@ -158,7 +164,11 @@ body {
 /*Menu start*/
 #menu {
     background-color: #3F3140;
+    width: 100%;
     height: 100%;
+    min-height: 100%;
+    position: relative;
+    overflow: scroll;
 }
 
 #kryds {
@@ -179,13 +189,13 @@ body {
 
 #menu ul {
     color: #F58E81;
-    margin: 30px;
+    margin-top: 30px;
 }
 
 /* Menu Items */
 #menu ul {
     list-style-type: none;
-    margin-top: 10%;
+    margin-top: 3%;
     padding: 0;
 }
 
@@ -205,4 +215,20 @@ body {
 
 #menu ul li a:hover {
     opacity: 0.6;
+}
+
+#footer {
+    background-color: #F58E81;
+    height: 40px;
+    bottom: 0%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
 }
