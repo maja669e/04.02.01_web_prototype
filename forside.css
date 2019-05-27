@@ -9,6 +9,7 @@ body {
     height: 100%;
     width: 100%;
     position: relative;
+    font-family: 'Roboto', sans-serif;
 }
 
 .forsvind {
@@ -128,7 +129,7 @@ body {
 }
 
 .item i {
-    font-size: 36px;
+    font-size: 48px;
     padding: 16px 0px 0px 0px;
 }
 
@@ -137,8 +138,6 @@ body {
     font-weight: bold;
     padding: 6px;
 }
-
-.i1 {}
 
 .i2 {}
 
