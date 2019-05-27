@@ -145,8 +145,13 @@ body {
 
 .i4 {
     width: 248px;
+
 }
 
+.i4 p {
+    padding: 42px;
+    font-size: 1.8rem;
+}
 .i5 {}
 
 .i6 {}
@@ -160,6 +165,11 @@ body {
 .i10 {
     width: 252px;
     height: 252px;
+}
+
+.i10 p {
+    font-size: 1.8rem;
+
 }
 
 .i11 {}
