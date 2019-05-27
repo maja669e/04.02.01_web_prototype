@@ -1,0 +1,99 @@
+#afleveringer {
+    flex-wrap: wrap;
+    margin: 1vw;
+    padding: 2vw;
+}
+
+#afleveringer h1 {
+    color: #233249;
+    font-size: 40px;
+    margin: 2vw;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+
+}
+
+#afleveringer h2 {
+    color: #EA5045;
+    font-size: 20px;
+    margin: 2vw;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+}
+
+#afleveringer p {
+    color: black;
+    font-size: 15px;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+}
+
+#naeste,
+#aflever,
+#tema1,
+#tema2,
+#tema3,
+#tema4 {
+    margin: 2vw;
+    padding: 2vw;
+    background-color: #eae7e7;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+}
+
+.dd-button {
+    border: solid #EA5045;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.dd-input {
+    display: none;
+}
+
+.dd-menu {
+    position: absolute;
+    top: 100%;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+    background-color: #faf7f7;
+    list-style-type: none;
+    z-index: 2;
+}
+
+.dd-input + .dd-menu {
+    display: none;
+}
+
+.dd-input:checked + .dd-menu {
+    display: block;
+}
+
+.dd-menu li {
+    padding: 10px 20px;
+    cursor: pointer;
+    white-space: nowrap;
+    width: 80vw;
+}
+
+.dd-menu li:hover {
+    background-color: #f6f6f6;
+}
+
+.dd-menu li a {
+    display: block;
+    margin: -10px -20px;
+    padding: 10px 20px;
+}
+
+.dd-menu li.divider {
+    padding: 0;
+    border-bottom: 1px solid #cccccc;
+}

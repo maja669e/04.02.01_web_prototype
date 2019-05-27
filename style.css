@@ -250,6 +250,9 @@ h4 {
     font-family: "Helvetica Neue Condensed", sans-serif;
 }
 
+/*Hold*/
+
+/*
 #knapper {
     flex: wrap;
     display: flex;
@@ -273,8 +276,10 @@ h4 {
     padding: 5px;
 
 }
+*/
 
 /* Style the links inside the navigation bar */
+/*
 .topnav a {
     float: center;
     display: block;
@@ -285,35 +290,38 @@ h4 {
     font-size: 17px;
     justify-content: center;
 }
+*/
 
 /* Change the color of links on hover */
-.topnav a:hover {
+/*.topnav a:hover {
     color: black;
-}
+}*/
 
 /* Style the "active" element to highlight the current page */
+/*
 .topnav a.active {
     color: white;
 }
+*/
 
 /* Style the search box inside the navigation bar */
-.topnav input[type=text] {
+/*.topnav input[type=text] {
     float: right;
     padding: 6px;
     border: none;
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
-}
+}*/
 
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 
-.dropdown1 {
+/*.dropdown1 {
     display: inline-block;
     position: relative;
-}
+}*/
 
-.dd-button1 {
+/*.dd-button1 {
     display: inline-block;
     border: 1px solid gray;
     border-radius: 4px;
@@ -426,9 +434,13 @@ h4 {
 #info p {
     color: white;
     font-family: "Helvetica Neue Condensed", sans-serif;
-}
+}*/
 
-#afleveringer {
+/*Hold slut*/
+
+/*Afleveringer*/
+
+/*#afleveringer {
     flex-wrap: wrap;
     margin: 1vw;
     padding: 2vw;
@@ -496,9 +508,9 @@ h4 {
     background-color: #faf7f7;
     list-style-type: none;
     z-index: 2;
-}
+}*/
 
-.dd-input + .dd-menu {
+/*.dd-input + .dd-menu {
     display: none;
 }
 
@@ -526,7 +538,7 @@ h4 {
 .dd-menu li.divider {
     padding: 0;
     border-bottom: 1px solid #cccccc;
-}
+}*/
 
 /* Forside */
 
@@ -608,6 +620,7 @@ body {
 
 /*Forside slut*/
 
+/*
 #materialer h1 {
     color: #233249;
     font-size: 25px;
@@ -698,3 +711,4 @@ i {
     max-height: 8vw;
 
 }
+*/

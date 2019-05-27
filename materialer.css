@@ -1,0 +1,107 @@
+body {
+    background-color: #EDEDED;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+}
+
+html {
+    font-size: 100%;
+}
+
+img {
+    100%;
+}
+
+#materialer h1 {
+    color: #233249;
+    font-size: 25px;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+    margin: 2vw;
+}
+
+#materialer p {
+    color: black;
+    font-size: 15px;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+    margin: 2vw;
+}
+
+#materialer #top {
+    background-color: #e0e0e0;
+}
+
+#materialer .overskrifter {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+#materialer .tema {
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+#dato {
+    background-color: #3F3140;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#dato p {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+i {
+    border: solid #EA5045;
+    border-width: 0 3px 3px 0;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    position: relative;
+    top: 7vw;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    cursor: pointer;
+
+
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    cursor: pointer;
+}
+
+#slide1,
+#slide2,
+#slide3 {
+    margin: 4vw;
+    padding: 2vw;
+    background-color: #eae7e7;
+}
+
+#footer_materialer {
+    background-color: #3F3140;
+    height: 10vw;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+
+#footer_materialer #skema_logo img {
+    max-height: 8vw;
+
+}
