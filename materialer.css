@@ -162,32 +162,32 @@ img {
 
 
 
-#materialer h1 {
+#materialer_wrapper h1 {
     color: #233249;
     font-size: 25px;
     font-family: "Helvetica Neue Condensed", sans-serif;
     margin: 2vw;
 }
 
-#materialer p {
+#materialer_wrapper p {
     color: black;
     font-size: 15px;
     font-family: "Helvetica Neue Condensed", sans-serif;
     margin: 2vw;
 }
 
-#materialer #top {
+#materialer_wrapper #top {
     background-color: #e0e0e0;
 }
 
-#materialer .overskrifter {
+#materialer_wrapper .overskrifter {
     justify-content: flex-start;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
 }
 
-#materialer .tema {
+#materialer_wrapper .tema {
     justify-content: flex-end;
     flex-wrap: wrap;
     display: flex;

@@ -47,7 +47,8 @@ img {
 
 }
 
-#ip2 {
+#ip2,
+#ip3 {
     border: none;
     border-radius: 25px;
     padding: 20px;

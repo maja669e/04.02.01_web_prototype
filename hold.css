@@ -320,12 +320,19 @@ img {
     flex-wrap: wrap;
 }
 
-#profil_pic {
+#profil_pic1,
+#profil_pic2,
+#profil_pic3,
+#profil_pic4 {
     display: flex;
     flex-wrap: wrap;
 }
 
-#profil_pic p {
+#profil_pic1,
+#profil_pic2,
+#profil_pic3,
+#profil_pic4,
+p {
     display: flex;
     flex-wrap: wrap;
     margin: 10px;
