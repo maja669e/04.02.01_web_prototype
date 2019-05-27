@@ -186,13 +186,13 @@ body {
     color: white;
 }
 
-#afleveringer {
+#aflevering {
     flex-wrap: wrap;
-    margin: 1vw;
-    padding: 2vw;
+    margin: 2vw;
+    padding: 1vw;
 }
 
-#afleveringer h1 {
+#aflevering h1 {
     color: #233249;
     font-size: 40px;
     margin: 2vw;
@@ -200,14 +200,14 @@ body {
 
 }
 
-#afleveringer h2 {
+#aflevering h2 {
     color: #EA5045;
     font-size: 20px;
     margin: 2vw;
     font-family: "Helvetica Neue Condensed", sans-serif;
 }
 
-#afleveringer p {
+#aflevering p {
     color: black;
     font-size: 15px;
     font-family: "Helvetica Neue Condensed", sans-serif;
