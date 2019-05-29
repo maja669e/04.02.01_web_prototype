@@ -1,0 +1,249 @@
+html {
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    background-color: #FAF7F7;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+.forsvind {
+    display: none;
+}
+
+/* [ON BIG SCREEN] */
+/* Wrapper */
+#page-nav {
+    width: 100%;
+    background: #EA5045;
+    /* If you want the navigation bar to stick on top */
+    position: sticky;
+    z-index: 3;
+    height: 4rem;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+}
+
+#menu_profil {
+    position: absolute;
+    right: 10%;
+    top: 6%;
+}
+
+#menu_profil img {
+    height: 50px;
+}
+
+#menu_billede {
+    position: absolute;
+    top: 10%;
+}
+
+#menu_billede:hover {
+    transform: scale(0.9);
+}
+
+#menu_billede img {
+    height: 40px;
+}
+
+#page-nav label {
+    position: absolute;
+    display: inline-block;
+    color: #fff;
+    font-style: normal;
+    font-size: 2.4em;
+    right: 3%;
+    top: 3%;
+}
+
+
+
+/* [ON SMALL SCREENS] */
+@media screen and (max-width: 768px) {
+
+    /* Show Hamburger */
+
+
+
+
+
+    /* Toggle show/hide menu on checkbox click */
+    #page-nav ul {
+        display: none;
+    }
+
+    #page-nav input:checked ~ ul {
+        display: block;
+    }
+
+
+}
+
+/* Forside */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.metro {
+    color: #F58E81;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topbox {
+    margin-top: 6px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.vertical_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    width: 120px;
+    height: 120px;
+    background: white;
+    margin: 6px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.4s;
+    opacity: 0.9;
+}
+
+.item:hover {
+    transform: scale(0.9);
+}
+
+.item i {
+    font-size: 48px;
+    padding: 16px 0px 0px 0px;
+}
+
+.item p {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px;
+}
+
+.i2 {}
+
+.i3 {}
+
+.i4 {
+    width: 248px;
+
+}
+
+.i4 p {
+    padding: 42px;
+    font-size: 1.8rem;
+}
+.i5 {}
+
+.i6 {}
+
+.i7 {}
+
+.i8 {}
+
+.i9 {}
+
+.i10 {
+    width: 252px;
+    height: 252px;
+}
+
+.i10 p {
+    font-size: 1.8rem;
+
+}
+
+.i11 {}
+
+/*Forside slut*/
+
+/*Menu start*/
+#menu {
+    background-color: #3F3140;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+    overflow: scroll;
+}
+
+#kryds {
+    font-size: 30px;
+    float: right;
+    padding: 2.5vw;
+    color: white;
+}
+
+#kea_logo {
+}
+
+#kea_logo img {
+    height: 50px;
+    margin-top: 20%;
+    margin-left: 34.5%;
+}
+
+#menu ul {
+    color: #F58E81;
+    margin-top: 30px;
+}
+
+/* Menu Items */
+#menu ul {
+    list-style-type: none;
+    margin-top: 2%;
+    padding: 0;
+}
+
+
+#menu ul li {
+    padding: 12px;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+}
+
+
+#menu ul li a {
+    color: #F58E81;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    opacity: 0.6;
+}
+
+#footer {
+    background-color: #F58E81;
+    height: 40px;
+    bottom: 0%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}

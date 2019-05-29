@@ -1,0 +1,288 @@
+html {
+    height: 100%;
+    min-height: 100%;
+
+}
+
+body {
+    background-color: #FAF7F7;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    width: auto;
+}
+
+.forsvind {
+    display: none;
+}
+
+/* [ON BIG SCREEN] */
+/* Wrapper */
+#page-nav {
+    width: 100%;
+    background: #EA5045;
+    /* If you want the navigation bar to stick on top */
+    position: sticky;
+    z-index: 3;
+    height: 4rem;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+}
+
+#menu_profil {
+    position: absolute;
+    right: 10%;
+    top: 6%;
+}
+
+#menu_profil img {
+    height: 50px;
+}
+
+#menu_billede {
+    position: absolute;
+    top: 10%;
+}
+
+#menu_billede:hover {
+    transform: scale(0.9);
+}
+
+#menu_billede img {
+    height: 40px;
+}
+
+#page-nav label {
+    position: absolute;
+    display: inline-block;
+    color: #fff;
+    font-style: normal;
+    font-size: 2.4em;
+    right: 3%;
+    top: 3%;
+}
+
+
+
+/* [ON SMALL SCREENS] */
+@media screen and (max-width: 768px) {
+
+    /* Show Hamburger */
+
+
+
+
+
+    /* Toggle show/hide menu on checkbox click */
+    #page-nav ul {
+        display: none;
+    }
+
+    #page-nav input:checked ~ ul {
+        display: block;
+    }
+
+
+}
+
+/*Menu start*/
+#menu {
+    background-color: #3F3140;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+    overflow: scroll;
+}
+
+#kryds {
+    font-size: 30px;
+    float: right;
+    padding: 2.5vw;
+    color: white;
+}
+
+#kea_logo {}
+
+#kea_logo img {
+    height: 50px;
+    margin-top: 20%;
+    margin-left: 34.5%;
+}
+
+#menu ul {
+    color: #F58E81;
+    margin-top: 30px;
+}
+
+
+/*Menu start*/
+#menu {
+    background-color: #3F3140;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+    overflow: scroll;
+}
+
+#kryds {
+    font-size: 30px;
+    float: right;
+    padding: 2.5vw;
+    color: white;
+}
+
+#kea_logo {}
+
+#kea_logo img {
+    height: 50px;
+    margin-top: 20%;
+    margin-left: 34.5%;
+}
+
+#menu ul {
+    color: #F58E81;
+    margin-top: 30px;
+}
+
+/* Menu Items */
+#menu ul {
+    list-style-type: none;
+    margin-top: 2%;
+    padding: 0;
+}
+
+
+#menu ul li {
+    padding: 12px;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+}
+
+
+#menu ul li a {
+    color: #F58E81;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    opacity: 0.6;
+}
+
+#footer {
+    background-color: #F58E81;
+    height: 40px;
+    bottom: 0%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#aflevering {
+    flex-wrap: wrap;
+    margin: 2vw;
+    padding: 1vw;
+}
+
+#aflevering h1 {
+    color: #233249;
+    font-size: 40px;
+    margin: 2vw;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+
+}
+
+#aflevering h2 {
+    color: #EA5045;
+    font-size: 20px;
+    margin: 2vw;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+}
+
+#aflevering p {
+    color: black;
+    font-size: 15px;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+}
+
+#naeste,
+#aflever,
+#tema1,
+#tema2,
+#tema3,
+#tema4 {
+    margin: 2vw;
+    padding: 2vw;
+    background-color: #eae7e7;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+}
+
+.dd-button {
+    border: solid #EA5045;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.dd-input {
+    display: none;
+}
+
+.dd-menu {
+    position: absolute;
+    top: 100%;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+    background-color: #faf7f7;
+    list-style-type: none;
+    z-index: 2;
+}
+
+.dd-input + .dd-menu {
+    display: none;
+}
+
+.dd-input:checked + .dd-menu {
+    display: block;
+}
+
+.dd-menu li {
+    padding: 10px 20px;
+    cursor: pointer;
+    white-space: nowrap;
+    width: 80vw;
+}
+
+.dd-menu li:hover {
+    background-color: #f6f6f6;
+}
+
+.dd-menu li a {
+    display: block;
+    margin: -10px -20px;
+    padding: 10px 20px;
+}
+
+.dd-menu li.divider {
+    padding: 0;
+    border-bottom: 1px solid #cccccc;
+}

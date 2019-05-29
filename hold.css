@@ -1,0 +1,360 @@
+html {
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    background-color: #FAF7F7;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+.forsvind {
+    display: none;
+}
+
+/* [ON BIG SCREEN] */
+/* Wrapper */
+#page-nav {
+    width: 100%;
+    background: #EA5045;
+    /* If you want the navigation bar to stick on top */
+    position: sticky;
+    z-index: 3;
+    height: 4rem;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+}
+
+#menu_profil {
+    position: absolute;
+    right: 10%;
+    top: 6%;
+}
+
+#menu_profil img {
+    height: 50px;
+}
+
+#menu_billede {
+    position: absolute;
+    top: 10%;
+}
+
+#menu_billede:hover {
+    transform: scale(0.9);
+}
+
+#menu_billede img {
+    height: 40px;
+}
+
+#page-nav label {
+    position: absolute;
+    display: inline-block;
+    color: #fff;
+    font-style: normal;
+    font-size: 2.4em;
+    right: 3%;
+    top: 3%;
+}
+
+
+
+/* [ON SMALL SCREENS] */
+@media screen and (max-width: 768px) {
+
+    /* Show Hamburger */
+
+
+
+
+
+    /* Toggle show/hide menu on checkbox click */
+    #page-nav ul {
+        display: none;
+    }
+
+    #page-nav input:checked ~ ul {
+        display: block;
+    }
+
+
+}
+
+/*Menu start*/
+#menu {
+    background-color: #3F3140;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+    overflow: scroll;
+}
+
+#kryds {
+    font-size: 30px;
+    float: right;
+    padding: 2.5vw;
+    color: white;
+}
+
+#kea_logo {}
+
+#kea_logo img {
+    height: 50px;
+    margin-top: 20%;
+    margin-left: 34.5%;
+}
+
+#menu ul {
+    color: #F58E81;
+    margin-top: 30px;
+}
+
+/* Menu Items */
+#menu ul {
+    list-style-type: none;
+    margin-top: 2%;
+    padding: 0;
+}
+
+
+#menu ul li {
+    padding: 12px;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+}
+
+
+#menu ul li a {
+    color: #F58E81;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    opacity: 0.6;
+}
+
+#footer {
+    background-color: #F58E81;
+    height: 40px;
+    bottom: 0%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+
+body {
+    background-color: #EDEDED;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 56.25vw;
+    position: absolute;
+}
+
+html {
+    font-size: 100%;
+}
+
+img {
+    100%;
+}
+
+
+#knapper {
+    flex: wrap;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+#hold h1 {
+    color: #233249;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+}
+
+
+
+.topnav {
+    overflow: hidden;
+    justify-content: center;
+    padding: 5px;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: center;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    justify-content: center;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+    color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+
+.dropdown1 {
+    display: inline-block;
+    position: relative;
+}
+
+.dd-button1 {
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 10px 30px 10px 20px;
+    background-color: #233249;
+    cursor: pointer;
+    white-space: nowrap;
+    text-align: center;
+    color: white;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+}
+
+.dd-button1:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid white;
+}
+
+.dd-button1:hover {
+    background-color: #2b3e5a;
+}
+
+
+.dd-input1 {
+    display: none;
+}
+
+.dd-menu1 {
+    position: absolute;
+    top: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0;
+    margin: 2px 0 0 0;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+    background-color: #233249;
+    list-style-type: none;
+    color: white;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+}
+
+.dd-input1 + .dd-menu1 {
+    display: none;
+}
+
+.dd-input1:checked + .dd-menu1 {
+    display: block;
+}
+
+.dd-menu1 li {
+    padding: 10px 20px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.dd-menu1 li:hover {
+    background-color: #2b3e5a;
+}
+
+.dd-menu1 li a {
+    display: block;
+    margin: -10px -20px;
+    padding: 10px 20px;
+}
+
+.dd-menu1 li.divider {
+    padding: 0;
+    border-bottom: 1px solid #cccccc;
+}
+
+#profil {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#profil_pic1,
+#profil_pic2,
+#profil_pic3,
+#profil_pic4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#profil_pic1,
+#profil_pic2,
+#profil_pic3,
+#profil_pic4,
+p {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 1px;
+}
+
+#billeder img {
+    margin: 0.5vw;
+    width: 15vw;
+    height: 18vw;
+}
+
+#info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: lightgrey;
+    justify-content: space-around;
+
+}
+
+#info p {
+    color: white;
+    font-family: "Helvetica Neue Condensed", sans-serif;
+}
