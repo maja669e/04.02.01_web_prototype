@@ -22,6 +22,7 @@ img {
 #header_log {
     background-color: #EA5045;
     height: 40vw;
+    width: 100%;
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
